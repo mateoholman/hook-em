@@ -5,7 +5,7 @@ const UseState = () => {
   const [newCoolKid, setNewCoolKid] = useState('');
   const [coolKids, setCoolKids] = useState([]);
 
-  const handleSubmit = e => {
+  const handleSubmit = (e) => {
     e.preventDefault();
     setCoolKids([...coolKids, newCoolKid]);
     setNewCoolKid('');

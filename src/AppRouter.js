@@ -1,7 +1,8 @@
 import React from 'react';
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import App from './App';
 import UseState from './views/UseState';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import './styles/app.css';
 
 function AppRouter() {
   return (

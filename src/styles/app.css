@@ -1,0 +1,16 @@
+nav > ul {
+    display: flex;
+    background-color: cornflowerblue;
+    margin: 0;
+    padding: 0;
+}
+
+nav > ul > li {
+    margin: 1em;
+    list-style: none;
+}
+
+nav > ul > li > a {
+  color: #ffffff;
+  text-decoration: none;
+}
