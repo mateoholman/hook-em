@@ -1,7 +1,7 @@
 import React from 'react';
-import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 import App from './App';
-import UseState from './views/UseState';
+import CoolKidsClub from './views/CoolKidsClub';
 import './styles/app.css';
 
 function AppRouter() {
@@ -20,7 +20,7 @@ function AppRouter() {
         </nav>
 
         <Route path="/" exact component={App} />
-        <Route path="/useState/" component={UseState} />
+        <Route path="/useState/" component={CoolKidsClub} />
       </div>
     </Router>
   );

@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import TextField from '@material-ui/core/TextField';
 import '../styles/useStateHook.css';
 
-const UseState = () => {
+const CoolKidsClub = () => {
   const [newCoolKid, setNewCoolKid] = useState('');
   const [coolKids, setCoolKids] = useState([]);
 
@@ -35,4 +35,4 @@ const UseState = () => {
   );
 };
 
-export default UseState;
+export default CoolKidsClub;
