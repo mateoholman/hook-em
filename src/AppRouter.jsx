@@ -4,6 +4,7 @@ import App from './App';
 import SimpleInput from './views/SimpleInput';
 import CoolKidsClub from './views/CoolKidsClub';
 import MediumInput from './views/MediumInput';
+import PrevStateExample from './views/PrevStateExample';
 
 import './styles/app.css';
 
@@ -26,6 +27,8 @@ function AppRouter() {
         <Route path="/simple" component={SimpleInput} />
         <Route path="/useState" component={CoolKidsClub} />
         <Route path="/medium" component={MediumInput} />
+        <Route path="/prevState" component={PrevStateExample} />
+
       </div>
     </Router>
   );
