@@ -1,0 +1,12 @@
+.simple-input {
+  text-align: center;
+}
+
+.simple-input input {
+  margin: 2em;
+  min-width: 15em;
+}
+
+.simple-input li {
+  list-style-type: none;
+}

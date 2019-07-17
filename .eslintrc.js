@@ -20,5 +20,6 @@ module.exports = {
     ],
     "rules": {
         "linebreak-style": "off",
+        "react/jsx-one-expression-per-line": "off",
     }
 };
