@@ -5,9 +5,7 @@
 }
 
 .counter-button {
-  border: 1px solid #0081b4;
   border-radius: 20%;
-  padding: 0 4px;
   color: #0081b4;
   font-size: 22px;
   font-weight: 800;
@@ -15,11 +13,13 @@
 }
 
 .counter-button:hover {
-  background-color: #649eb4;
+  color: #042bdb;
   cursor: pointer;
 }
 
 .counter-digits {
   font-size: 36px;
   font-weight: 800;
+  min-width: 2em;
+  text-align: center;
 }

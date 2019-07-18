@@ -3,11 +3,21 @@ import '../styles/counter.css';
 
 const PrevStateExample = () => {
   const [counter, setCounter] = useState(0);
+  const handleIncrease = () => {
+    setCounter(prevState => prevState + 1);
+  };
+  const handleDecrease = () => {
+    setCounter(prevState => prevState - 1);
+  };
   return (
     <div className="counter-container">
-      <p className="counter-button">-</p>
+      <button className="counter-button" onClick={handleDecrease}>
+        -
+      </button>
       <p className="counter-digits">{counter}</p>
-      <p className="counter-button">+</p>
+      <button className="counter-button" onClick={handleIncrease}>
+        +
+      </button>
     </div>
   );
 };
